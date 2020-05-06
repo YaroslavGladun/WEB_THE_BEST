@@ -52,20 +52,6 @@ header {
   padding: 10px 0;
 }
 
-.default-btn {
-  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .2);
-  background: $secondary-color;
-  border: 0;
-  border-radius: 0;
-  font-size: 18px;
-  color: #312559;
-
-  &:hover {
-    background: darken($secondary-color, 10);
-    color: #312559;
-  }
-}
-
 .default-input {
   outline: none;
   box-shadow: none;
@@ -78,5 +64,19 @@ header {
     border-color: $secondary-color;
     outline: none;
     box-shadow: none;
+  }
+}
+
+.default-btn {
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .2);
+  background: $secondary-color;
+  border: 0;
+  border-radius: 0;
+  font-size: 18px;
+  color: #312559;
+
+  &:hover {
+    background: darken($secondary-color, 10);
+    color: #312559;
   }
 }
