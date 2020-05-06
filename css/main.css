@@ -31,13 +31,13 @@ header {
 }
 
 .main-navbar .navbar-brand {
-  font-size: 36px;
-  font-weight: 500;
+  font-size: 45px;
+  font-weight: 400;
   color: #FFFFFF;
 }
 .main-navbar .nav-item {
   font-size: 24px;
-  padding: 10px;
+  padding: 30px;
 }
 .main-navbar .nav-item .nav-link {
   color: rgba(0, 0, 0, 0.7);
