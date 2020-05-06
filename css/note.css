@@ -48,10 +48,7 @@
   text-decoration: none;
   outline: none;
 }
-.option-buttons .edit-btn {
-  border: 2px solid #F39C12;
-  color: #F39C12;
-}
+
 .option-buttons .edit-btn:hover {
   background: #F39C12;
   color: #312559;
@@ -73,5 +70,9 @@
 .option-buttons .save-btn {
   border: 2px solid #1c7430;
   color: #1c7430;
+}
+.option-buttons .edit-btn {
+  border: 2px solid #F39C12;
+  color: #F39C12;
 }
 /*# sourceMappingURL=note.css.map */

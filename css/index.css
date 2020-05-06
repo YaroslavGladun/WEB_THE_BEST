@@ -32,6 +32,43 @@ img{
 .note a {
   color: #FFFFFF;
 }
+
+.add-new-note-btn {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 10px;
+  right: 10px;
+  background: #7d3e8f;
+  border-radius: 100%;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1000;
+}
+.add-new-note-btn:hover {
+  background: #e6e6e6;
+}
+.add-new-note-btn::after {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 4px;
+  background: wheat;
+  top: 38px;
+  left: 15%;
+  border-radius: 0px;
+}
+.add-new-note-btn::before {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 4px;
+  background: wheat;
+  left: 38px;
+  top: 15%;
+  border-radius: 0px;
+}
+
 .note a:hover {
   text-decoration: none;
 }
@@ -64,42 +101,6 @@ img{
 .photos:hover .note:not(:hover) {
   opacity: 0.5;
   background: #312559;
-}
-
-.add-new-note-btn {
-  position: fixed;
-  width: 70px;
-  height: 70px;
-  bottom: 10px;
-  right: 10px;
-  background: #312559;
-  border-radius: 100%;
-  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  z-index: 1000;
-}
-.add-new-note-btn:hover {
-  background: #e6e6e6;
-}
-.add-new-note-btn::after {
-  content: "";
-  position: absolute;
-  width: 70%;
-  height: 4px;
-  background: wheat;
-  top: 34px;
-  left: 15%;
-  border-radius: 0px;
-}
-.add-new-note-btn::before {
-  content: "";
-  position: absolute;
-  height: 70%;
-  width: 4px;
-  background: wheat;
-  left: 34px;
-  top: 15%;
-  border-radius: 0px;
 }
 
 /*# sourceMappingURL=index.css.map */
